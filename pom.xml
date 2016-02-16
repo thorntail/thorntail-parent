@@ -55,6 +55,19 @@
         <version>2.10</version>
       </extension>
     </extensions>
+    <plugins>
+      <plugin>
+        <artifactId>maven-release-plugin</artifactId>
+        <configuration>
+          <autoVersionSubmodules>true</autoVersionSubmodules>
+          <tagNameFormat>@{project.version}</tagNameFormat>
+          <pushChanges>false</pushChanges>
+          <preparationGoals>clean install</preparationGoals>
+          <localCheckout>true</localCheckout>
+          <arguments>-DskipTests</arguments>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
 
   <profiles>
