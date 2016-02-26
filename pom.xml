@@ -67,17 +67,6 @@
           <arguments>-DskipTests ${release.arguments}</arguments>
         </configuration>
       </plugin>
-      <plugin>
-        <groupId>org.sonatype.plugins</groupId>
-        <artifactId>nexus-staging-maven-plugin</artifactId>
-        <version>1.6.3</version>
-        <extensions>true</extensions>
-        <configuration>
-          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-          <serverId>ossrh</serverId>
-          <autoReleaseAfterClose>true</autoReleaseAfterClose>
-        </configuration>
-      </plugin>
     </plugins>
   </build>
 
@@ -86,6 +75,17 @@
       <id>release</id>
       <build>
         <plugins>
+          <plugin>
+            <groupId>org.sonatype.plugins</groupId>
+            <artifactId>nexus-staging-maven-plugin</artifactId>
+            <version>1.6.3</version>
+            <extensions>true</extensions>
+            <configuration>
+              <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+              <serverId>ossrh</serverId>
+              <autoReleaseAfterClose>true</autoReleaseAfterClose>
+            </configuration>
+          </plugin>
           <plugin>
             <artifactId>maven-javadoc-plugin</artifactId>
             <executions>
