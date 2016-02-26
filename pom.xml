@@ -24,9 +24,9 @@
   <packaging>pom</packaging>
 
   <scm>
-    <connection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm.git</connection>
-    <developerConnection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm.git</developerConnection>
-    <url>https://github.com/wildfly-swarm/wildfly-swarm</url>
+    <connection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm-parent.git</connection>
+    <developerConnection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm-parent.git</developerConnection>
+    <url>https://github.com/wildfly-swarm/wildfly-swarm-parent</url>
     <tag>HEAD</tag>
   </scm>
 
