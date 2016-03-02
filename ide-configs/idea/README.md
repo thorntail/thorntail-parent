@@ -5,3 +5,5 @@
 - In the Select Components to Import dialog ensure `Code style schemes` is checked and click OK.
 
 You should now have a new code style profile named `wildfly-swarm`.
+
+To learn more about the code style this provides, see http://wildfly-swarm.io/community/code-style/.
