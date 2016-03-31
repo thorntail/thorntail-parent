@@ -38,8 +38,8 @@
 
   <distributionManagement>
     <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <id>bees-snapshots-repository</id>
+      <url>dav:https://repository-projectodd.forge.cloudbees.com/snapshot</url>
     </snapshotRepository>
     <repository>
       <id>ossrh</id>
