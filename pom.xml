@@ -16,7 +16,7 @@
 
   <groupId>org.wildfly.swarm</groupId>
   <artifactId>parent</artifactId>
-  <version>8-SNAPSHOT</version>
+  <version>8</version>
 
   <name>WildFly Swarm: Parent</name>
   <description>WildFly Swarm: Parent</description>
@@ -27,7 +27,7 @@
     <connection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm-parent.git</connection>
     <developerConnection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm-parent.git</developerConnection>
     <url>https://github.com/wildfly-swarm/wildfly-swarm-parent</url>
-    <tag>HEAD</tag>
+    <tag>8</tag>
   </scm>
 
   <licenses>
