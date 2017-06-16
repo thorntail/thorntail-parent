@@ -4,8 +4,7 @@
   ~
   ~ Licensed under the Apache License version 2.0, available at http://www.apache.org/licenses/LICENSE-2.0
   -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
@@ -17,7 +16,7 @@
 
   <groupId>org.wildfly.swarm</groupId>
   <artifactId>parent</artifactId>
-  <version>9-SNAPSHOT</version>
+  <version>9</version>
 
   <name>WildFly Swarm: Parent</name>
   <description>WildFly Swarm: Parent</description>
@@ -28,7 +27,7 @@
     <connection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm-parent.git</connection>
     <developerConnection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm-parent.git</developerConnection>
     <url>https://github.com/wildfly-swarm/wildfly-swarm-parent</url>
-    <tag>HEAD</tag>
+    <tag>9</tag>
   </scm>
 
   <licenses>
