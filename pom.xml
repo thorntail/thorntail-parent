@@ -14,19 +14,19 @@
     <relativePath />
   </parent>
 
-  <groupId>org.wildfly.swarm</groupId>
+  <groupId>io.thorntail</groupId>
   <artifactId>parent</artifactId>
   <version>10-SNAPSHOT</version>
 
-  <name>WildFly Swarm: Parent</name>
-  <description>WildFly Swarm: Parent</description>
+  <name>Thorntail: Parent</name>
+  <description>Thorntail: Parent</description>
 
   <packaging>pom</packaging>
 
   <scm>
-    <connection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm-parent.git</connection>
-    <developerConnection>scm:git:git@github.com:wildfly-swarm/wildfly-swarm-parent.git</developerConnection>
-    <url>https://github.com/wildfly-swarm/wildfly-swarm-parent</url>
+    <connection>scm:git:git@github.com:thorntail/thorntail-parent.git</connection>
+    <developerConnection>scm:git:git@github.com:thorntail/thorntail-parent.git</developerConnection>
+    <url>https://github.com/thorntail/thorntail-parent</url>
     <tag>HEAD</tag>
   </scm>
 
