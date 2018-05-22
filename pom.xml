@@ -16,7 +16,7 @@
 
   <groupId>io.thorntail</groupId>
   <artifactId>parent</artifactId>
-  <version>10-SNAPSHOT</version>
+  <version>10</version>
 
   <name>Thorntail: Parent</name>
   <description>Thorntail: Parent</description>
@@ -27,7 +27,7 @@
     <connection>scm:git:git@github.com:thorntail/thorntail-parent.git</connection>
     <developerConnection>scm:git:git@github.com:thorntail/thorntail-parent.git</developerConnection>
     <url>https://github.com/thorntail/thorntail-parent</url>
-    <tag>HEAD</tag>
+    <tag>10</tag>
   </scm>
 
   <licenses>
