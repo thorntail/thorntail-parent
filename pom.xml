@@ -85,6 +85,7 @@
               <nexusUrl>https://oss.sonatype.org/</nexusUrl>
               <serverId>ossrh</serverId>
               <autoReleaseAfterClose>true</autoReleaseAfterClose>
+              <stagingProgressTimeoutMinutes>30</stagingProgressTimeoutMinutes>
             </configuration>
           </plugin>
           <plugin>
@@ -123,7 +124,7 @@
             <groupId>com.mycila</groupId>
             <artifactId>license-maven-plugin</artifactId>
             <configuration>
-              <header>http://wildfly-swarm.io/community/license-header.txt</header>
+              <header>http://thorntail.io/community/license-header.txt</header>
               <includes>
                 <include>**/*.java</include>
               </includes>
